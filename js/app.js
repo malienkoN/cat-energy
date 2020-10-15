@@ -1,0 +1,1 @@
+{const e=document.querySelector("#nav"),t=document.querySelector("#nav_toggle");e.classList.remove("active"),t.classList.remove("hidden"),t.addEventListener("click",c=>{c.preventDefault(),t.classList.toggle("active"),e.classList.toggle("active")})}
